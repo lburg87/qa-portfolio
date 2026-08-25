@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Large media evidence (kept locally, not tracked in git)
+*.mov
+*.mp4
+*.png
+*.jpg
+*.jpeg

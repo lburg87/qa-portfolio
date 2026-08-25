@@ -1,0 +1,62 @@
+
+
+
+
+
+
+
+
+ Introduction
+
+
+ In this test plan will Validate the functionality, usability, security and compatibility for the Delta Airlines web application.
+
+
+
+In-scope
+
+ Flight Search | One-way, round-trip, multi-city search and dates
+ Payment | Credit card, gift cards, SkyMiles redemption and promo
+ Booking Flow | Seat selection, fare class comparison
+ SkyMiles / Account | Login/SSO, profile management, mile balance
+ Search Engine / Navigation | Site search,
+
+
+Out of scope
+
+Non-functional testing
+ 
+
+
+Risks
+
+ Payment processing downtime during testing
+ Delay in development 
+Product not ready for testing
+Staging environment off-line
+
+
+Assumptions
+
+ Testing schedule aligns with release (bi-weekly sprint releases)
+ payment processing will be online
+
+
+Resources
+ Hardware
+ One tester
+
+
+Timescales
+
+ Daily exploratory testing
+ 48 hour session
+ Three hour testing
+
+Environment + tools
+
+ macOS Sequoia 
+Google Chrome Version 151.0.7922.108 
+Google dev tools 
+Test casses
+Test management tools

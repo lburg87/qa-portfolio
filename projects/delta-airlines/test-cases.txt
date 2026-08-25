@@ -1,0 +1,183 @@
+TC-44033: Verify user can search Round-Trip Flight with Valid Dates
+
+**Preconditions**
+
+user must be on Delta.com homepage
+
+Steps to Check
+
+1.Select "Round Trip"
+2.Enter Valid origin and destination
+3.Select valid departure and dates
+4.Select 1 passenger
+5.Click "Find Flights"
+
+Expected Result
+Search results page loads showing available flights
+
+
+
+TC-44034: Verify The user Can Book With Valid Credit Card
+
+Preconditions
+User has completed a valid flight search and selected a flight
+
+Steps to Check
+
+1.Select fare class
+2.Enter passenger details
+3.Select seat
+4.Enter valid credit card details
+5.Review order summary
+6.Click "Purchase"
+
+Expected Result
+Booking confirms successfully; confirmation number is generated; confirmation email is sent; itinerary appears in "My Trips"
+
+
+
+TC-44058: Verify user can choose a Flight with Maximum Allowed Passengers (e.g., 9) in a Single 
+Reservation.
+
+Preconditions
+User is on flight search
+
+Steps to Check
+
+1.Select 9 passengers. (max allowed per booking)
+2.Search and select a flight.
+3.Attempt to complete booking for all 9 with individual passenger details.
+
+Expected Result
+User is allowed to book up to 9 passengers the maximum amount and the seat map correctly reflects availability for group size.
+
+
+
+TC-44059: verify user can log In to Valid SkyMiles Account
+
+Preconditions
+User has a valid, active SkyMiles account
+
+Steps to Check
+
+1.Click "Log In"
+2.Enter valid SkyMiles number/email and password
+3.Click "Log In"
+
+Expected Result
+User is authenticated and redirected to account dashboard
+
+
+
+
+TC-44060: Verify user can apply Valid Promo Code at Checkout
+
+Preconditions
+User has an active, valid, unexpired promo code and has selected a flight eligible for the promo
+
+Step to Check
+
+1.Proceed to checkout
+2.Enter valid promo code
+3.Click "Apply"
+
+Expected Result
+Discount is applied correctly and the updated total reflects discount and promo code confirmation message displays
+
+
+
+
+TC-44089: Verify user cannot login with invalid credentials
+
+Preconditions
+User has a valid SkyMiles account
+
+Step to Check
+
+1.Enter valid SkyMiles number/email
+2.Enter incorrect password
+3.Click "Log In"
+
+Expected Result
+Login is rejected and error message displayed
+
+
+
+
+TC-44090: Verify user cannot search flights with the same origin and destination
+
+Preconditions
+
+Steps to Check
+User is on the flight search page
+
+1.Enter identical airport code for both origin and destination
+2.Click "Find Flights"
+
+expected Result
+System blocks the search with an error message
+
+
+
+
+TC-44091: Verify user cannot submit Payment with Invalid/Expired Credit Card
+
+Preconditions
+User has reached the payment step of checkout
+
+Steps to Check
+
+1.Enter an expired credit card number and expiration date
+2.Click " Complete Purchase" 
+
+Expected Result
+Transaction is declined and user sees a clear error message.
+
+
+
+
+TC-44092: Verify user cannot Apply Expired or Invalid Promo Code
+
+Preconditions
+User has an expired or invalid promo code and has selected a flight
+
+Steps to Check
+1. Proceed to checkout
+2. Enter expired/invalid promo code
+3. Click "Apply"
+
+Expected Result
+System rejects the code with a clear error message
+
+
+
+
+
+TC-44093: Verify user cannot use special characters in passenger name field
+
+
+Steps to Check
+
+1.Enter special characters in the passenger name field
+2.Attempt to proceed
+
+Expected Result
+special characters should be rejected and a error message should be displayed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
