@@ -7,3 +7,6 @@
 *.png
 *.jpg
 *.jpeg
+
+# Exception: screenshot embedded inline in the top-level README
+!/projects/delta-airlines/bug-reports/bug-001-total-price-filter-out-of-sync/screenshot.png

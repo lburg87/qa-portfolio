@@ -33,3 +33,7 @@ Manual QA effort covering the Delta Airlines web application:
 - **Bug Reports** — defects found during exploratory and scripted testing, each with reproduction steps and supporting evidence.
 
 > Note: video and image evidence files are excluded from git (see `.gitignore`) to keep the repository lightweight; they remain in place on disk alongside their bug reports.
+
+**Bug report execution walkthrough video:** https://youtu.be/Ilx0_8gqO5A
+
+![Bug report screenshot](projects/delta-airlines/bug-reports/bug-001-total-price-filter-out-of-sync/screenshot.png)
