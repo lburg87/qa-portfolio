@@ -9,4 +9,4 @@
 *.jpeg
 
 # Exception: screenshot embedded inline in the top-level README
-!/projects/delta-airlines/bug-reports/bug-001-total-price-filter-out-of-sync/screenshot.png
+!/projects/target/bug-reports/bug-001-account-sign-in-failure/screenshot-1.png
